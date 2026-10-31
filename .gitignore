@@ -1,0 +1,14 @@
+# Generated dependencies and build output outside the deployable website.
+node_modules/
+.next/
+out/
+.vercel/
+*.tsbuildinfo
+.env*.local
+
+# Local image-source and preview working directories.
+currentz_pannel/
+ec website/
+
+# Local-only scratch file.
+card.txt

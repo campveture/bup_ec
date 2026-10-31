@@ -1,0 +1,13 @@
+{
+  "name": "bupec-website-local",
+  "private": true,
+  "scripts": {
+    "setup": "npm --prefix website ci",
+    "start": "npm --prefix website run dev",
+    "dev": "npm --prefix website run dev",
+    "build": "npm --prefix website run build",
+    "cache-images": "npm --prefix website run cache-images",
+    "preview": "npm --prefix website run preview",
+    "typecheck": "npm --prefix website run typecheck"
+  }
+}
