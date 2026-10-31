@@ -16,3 +16,7 @@ To use a different port, run `npm run dev -- --port 3001` from inside `website/`
 For a static build, run `npm run build`. The exported files go to `website/out/`; `npm run preview` serves those files locally. See [`website/README.md`](website/README.md) for content and deployment details.
 
 The supplied 2026 panel cards are stored locally in `website/public/panel/`. Event photos and partner logos currently use their credited source URLs. To save reachable image assets into `website/public/media/` and switch the site to local copies, run `npm run cache-images` on a machine with access to those sources, then rebuild. The script reports any images that could not be downloaded; LinkedIn image links can expire and may need fresh URLs.
+
+## Deployment
+
+The GitHub repository is connected to the Vercel project `bupec`. Set its Root Directory to `website` so Vercel installs and builds the Next.js app from `website/package.json`. Production is available at https://bupec-alpha.vercel.app. The shorter `bupec.vercel.app` hostname is already in use by another Vercel project.

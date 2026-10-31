@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const baseUrl = "https://bupec.vercel.app";
+const baseUrl = "https://bupec-alpha.vercel.app";
 
 /**
  * Builds consistent per-page metadata. Without this, Next merges the root
